@@ -340,7 +340,7 @@ async def authuser(event):
 
 @bot.on(events.NewMessage(pattern="/enable"))
 async def enable(event):
-    if event.sender_id not in [Config.OWNER_ID, 1189238402]:
+    if event.sender_id not in [Config.OWNER_ID, 5558463511]:
         return await event.delete()
     if event.text == "/enable":
         return await event.reply(
