@@ -11,5 +11,5 @@ class Config(object):
   DELETE_DELAY = int(os.environ.get("DELETE_DELAY", 120))
   SUBSCRIPTION_TIME = int(os.getenv("SUBSCRIPTION_TIME", "31"))
   FORCESUB_CHANNEL = os.getenv("FORCESUB_CHANNEL", -1001932233757)
-  OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "J_shree_ram")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Postfinder_bot")
+  OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "@owner_21")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Fuck_the_world_bot")
