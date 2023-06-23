@@ -7,7 +7,7 @@ class Config(object):
   STRINGSESSION = os.environ.get("STRINGSESSION", "1BVtsOL0BuwXpZAJ7_XnMxiF3fF3RHQTjrfZSlaqpZ-BB2HGNfCpm1wWwTz9-7iZbgTblELfDRYdmXA8Rb5g6k729CgVuK3u5gJzlco3G1zR27SAIHkPFVmB4OtOPmYBioQ9scEoCoPO8sHi123vZOfsuJSToh3kGFE9e3l8gKolLyWKxSqj5yx7umELPFLFoauAY8icQqEGWS0WKDGc-fip55--zGYl_YoDqOjropiKm5-Y3KRsjEGTJBD7wWyasz60SfZFaUAxH4NU-pFvTK1G_SajEpklsSzb1eLbR9DqmblXHR3ezNGYiajr3e0eApYViN2BRiTDzSgz6N4-czvTM7-C69k8=")
   OWNER_ID = int(os.environ.get("OWNER_ID", "5558463511"))
   DATABASE_CHANNELS = os.environ.get("DATABASE_CHANNELS", ["--1001935504406"])
-  DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://kxygsjfk:KO8VSr9tAOXjo3rbmu8wMG9pBcN3veZb@babar.db.elephantsql.com/kxygsjfk")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Temp:Temp@cluster0.5zwnkvi.mongodb.net/?retryWrites=true&w=majority")
   DELETE_DELAY = int(os.environ.get("DELETE_DELAY", 120))
   SUBSCRIPTION_TIME = int(os.getenv("SUBSCRIPTION_TIME", "31"))
   FORCESUB_CHANNEL = os.getenv("FORCESUB_CHANNEL", -1001932233757)
